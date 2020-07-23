@@ -43,6 +43,9 @@
                 <div class="col-12 col-sm align-self-center">
                   <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                  <button type="button" class="btn btn-sm btn-block btn-warning"><a href="#reserve">Reserve Table</a></button>
+                </div>
             </div>
         </div>
   </header>
@@ -57,7 +60,7 @@
                 <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                 <div class="media-body">
                   <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                  <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                  <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                 </div>
               </div>
             </div>
@@ -69,8 +72,15 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+              <div class="media">
+                <div class="order-sm-last">
+                  <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
+                <div class="media-body order-sm-first">
+                  <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                  <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                </div>
+              </div>
             </div>
         </div>
 
@@ -84,11 +94,72 @@
                 <div class="media-body">
                   <h2>Alberto Somayya</h2>
                   <h4>Executive Chef</h4>
-                  <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                  <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                 </div>
               </div>
             </div>
+       </div>
+      <div class="col d-flex justify-content-center">
+       <div class="card mb-3 col-12 col-sm-8 w-100" id="reserve">
+          <div class="card-header text-white bg-warning"><h4>Reserve a Table</h4></div>
+          <div class="card-body">
+            <dl class="row">
+              <dt class="col-12 col-sm-3">Number of Guests</dt>
+              <dd class="col-12 col-sm-8 col-xs">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+               <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">3</label>
+               </div>
+               <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                <label class="form-check-label" for="inlineRadio4">4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                <label class="form-check-label" for="inlineRadio5">5</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                <label class="form-check-label" for="inlineRadio6">6</label>
+              </div>
+            </dd>
+            <dt class="col-6"></dt>
+            <dd class="col-6"></dd>
+            <dt class="col-6"></dt>
+            <dd class="col-6"></dd>
+            <dt class="col-12 col-sm-3">Date and Time</dt>
+            <dd class="col-sm-8 col-xs">
+              <form>
+                <div class="row">
+                  <div class="col-12 col-sm">
+                    <input type="text" class="form-control" placeholder="Date">
+                  </div>
+                  <div class="col-12 col-sm">
+                    <input type="text" class="form-control" placeholder="Time">
+                  </div>
+                </div>
+              </form>
+            </dd>
+            <dt class="col-6"></dt>
+            <dd class="col-6"></dd>
+            <dt class="col-6"></dt>
+            <dd class="col-6"></dd>
+            <dt class="col-3"></dt>
+            <dd class="col-8">
+              <button type="button" class="btn btn-primary">Reverse</button>
+            </dd>
+          </dl>
         </div>
+       </div>
+      </div>
     </div>
 
     <footer class="footer">
